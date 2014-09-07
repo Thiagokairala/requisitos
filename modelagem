@@ -1,0 +1,32 @@
+Modelagem para o processo:
+
+	Abaixo estará listada a modelagem inicial do projeto, apenas em passos, seguirá a ordem descrita.
+
+
+Selecionar abordagem. ->(agil ou tradicional).
+
+Tradional: RUP.
+Ágil: SCRUM.
+
+Tradicional:
+	enquanto projeto existir:
+	haverão novos requisitos == true ? t1, t2 : t2
+		houve aprovação do cliente == false ? roda novamente : para.
+			t1: Levantamento de requisitos
+				t1.1: Identificar problema.
+				t1.2: Identificar necessidades.
+					t1.2.1: Rastrear necessidades aos respectivos problemas.
+				t1.3: Indentificar Caracteristicas.
+					t1.3.1: Rastrear caracteristicas às respectivas necessidades.
+				t1.4: Identificar requisitos.
+					t1.4.1: Rastrear requisitos às respectivas caracteristicas.
+				t1.5: Escrever casos de uso.
+					t1.5.1: Rastrear casos de uso aos respectivos requisitos.
+			t2: Gerenciamento de requisitos
+				t2.1: Alterar requisitos mutáveis.
+				t2.2: Priorização de requisitos.(criar road map)
+			t3: Estimar custos e prazos do projeto.
+
+Agil:
+	enquanto projeto existir:
+	
